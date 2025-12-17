@@ -97,7 +97,7 @@ app.post("/telegram", async (req, res) => {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        model: "gpt-4.1-mini",
+        model: "gpt-5.2",
         instructions:
           "You are a helpful assistant inside Telegram. Keep replies short and clear.",
         input: buildOpenAIInput(h),
